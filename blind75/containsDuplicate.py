@@ -7,5 +7,5 @@ def containsDuplicate(numbers):
             hash_set.add(num)
     return False
     
-numbers = []
+numbers = [1, 2, 3, 4, 4]
 print(containsDuplicate(numbers))
